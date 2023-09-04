@@ -5,7 +5,7 @@ export default function (selector) {
 
 
     const container = document.createElement('div');
-    container.id = "epjsprint";
+    container.id = "epjs-print";
 
     elements.forEach(element => {
         const theElement = element.cloneNode(true);
