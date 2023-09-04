@@ -1,0 +1,13 @@
+#epjs-print {
+    display: none;
+}
+
+@media print {
+    body {
+        display: none;
+    }
+
+    #epjs-print {
+        display: block;
+    }
+}
