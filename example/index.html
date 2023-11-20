@@ -24,6 +24,7 @@
 <script type="module">
     import printer from "../index.js";
     document.getElementById('print-btn').addEventListener("click", () => {
+        console.log('event')
         printer("#to-print", "Hello world");
     })
 </script>
